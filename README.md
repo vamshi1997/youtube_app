@@ -49,9 +49,9 @@ How to test
 
 1. Use docker
 2. Run docker compose up --build in cmd
-3. Once build is done, look for server starup logs and db connection successful logs as well as         continuous logs for async api and their info storage logs in db.
+3. Once build is done, look for server starup logs and db connection successful logs as well as continuous logs for async api and their info storage logs in db.
 4. Once app started running, try below apis
     i. For fetch: http://localhost:8080/fetch?page=1&pageSize=100
         here difine page and pagesize
     ii. http://localhost:8080/search?title=Cricbuzz
-        here difine title or description with partial seach from the results of fetch api
+        here define title or description with partial search from the results of fetch api
